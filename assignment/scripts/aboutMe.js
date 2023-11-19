@@ -1,3 +1,4 @@
+
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Jaylyn';
@@ -42,7 +43,7 @@ const allowedPets = 1
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 var result;
-if(adventurous = true){
+if(adventurous === true){
   result='Adventures are great!';
 }
 else{
