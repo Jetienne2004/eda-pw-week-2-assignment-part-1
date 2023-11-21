@@ -8,17 +8,17 @@ let lastName = 'Etienne';
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
 let fullName = firstName + lastName;
-console. log('full name is ', firstName, lastName);
+console. log('full name is ', fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckyNumber = 5;
-console. log('my lucky number is ', luckyNumber);
+console. log(' lucky number is ', luckyNumber);
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'my name is ' + firstName + lastName + ', and i think ' + luckyNumber + 'is a winner ';
+let introduction = 'my name is ' + fullName +', and i think ' + luckyNumber + 'is a winner !'
 console. log('intro: ', introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
@@ -27,7 +27,7 @@ console. log('adventurous: ', adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
 let food = 'kineps';
-console. log('my favorite food it: ', food);
+console. log('my favorite food is: ', food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
 let pets = 0
@@ -42,7 +42,7 @@ const allowedPets = 1
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-var result;
+let result;
 if(adventurous === true){
   result='Adventures are great!';
 }
@@ -70,7 +70,7 @@ console. log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-var petStatus;
+let petStatus;
 if(pets < allowedPets){
   petStatus= 'I can have more pets';
 }
@@ -88,7 +88,7 @@ if(pets >allowedPets){
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
-var mostPets;
+let mostPets;
 if(pets > friendsPets){
   mostpets = pets;
 }
