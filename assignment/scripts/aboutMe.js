@@ -7,7 +7,7 @@ let lastName = 'Etienne';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullName = firstName + lastName;
+let fullName = firstName +" "+ lastName;
 console. log('full name is ', fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
@@ -18,7 +18,7 @@ console. log(' lucky number is ', luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'my name is ' + fullName +', and i think ' + luckyNumber + 'is a winner !'
+let introduction = 'my name is ' + fullName +', and i think ' + luckyNumber + 'is a winner!'
 console. log('intro: ', introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
@@ -43,7 +43,7 @@ const allowedPets = 1
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result;
-if(adventurous === true){
+if(adventurous == true){
   result='Adventures are great!';
 }
 else{
